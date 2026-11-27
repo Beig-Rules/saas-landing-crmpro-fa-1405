@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRM پرو | مدیریت مشتریان برای کسب‌وکارهای ایرانی</title>
+  <style>
+    :root { --bg: #0a0a0a; --fg: #f5f5f5; --accent: #ffffff; --muted: #888; }
+    @media (prefers-color-scheme: light) { :root { --bg: #fff; --fg: #0a0a0a; --accent: #000; --muted: #555; } }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, Tahoma, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; }
+    .hero { min-height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 2rem; }
+    .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 300; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; color: var(--muted); max-width: 600px; margin: 0 auto 2rem; }
+    .cta { display: inline-block; padding: 0.8rem 2rem; background: var(--accent); color: var(--bg); text-decoration: none; border-radius: 4px; font-weight: 500; }
+    .cta:hover { opacity: 0.9; }
+    .features { max-width: 900px; margin: 4rem auto; padding: 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .feature { padding: 1.5rem; border: 1px solid var(--muted); }
+    h2 { font-size: 1.5rem; font-weight: 400; margin-bottom: 0.5rem; }
+    footer { text-align: center; padding: 3rem 1rem; border-top: 1px solid var(--muted); color: var(--muted); }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div>
+      <h1>CRM پرو</h1>
+      <p>مدیریت مشتریان، فاکتور و فروش در یک پلتفرم ساده و قدرتمند. طراحی‌شده برای کسب‌وکارهای ایرانی.</p>
+      <a href="#signup" class="cta">شروع رایگان ۱۴ روزه</a>
+    </div>
+  </section>
+  <section class="features">
+    <div class="feature"><h2>مدیریت مشتری</h2><p>پیگیری کامل مشتریان و تاریخچه تماسات.</p></div>
+    <div class="feature"><h2>فاکتور خودکار</h2><p>صدور و ارسال فاکتور با پشتیبانی از درگاه‌های ایرانی.</p></div>
+    <div class="feature"><h2>گزارش‌های هوشمند</h2><p>داشبورد واقعی فروش و عملکرد تیم.</p></div>
+  </section>
+  <section id="signup" style="text-align:center; padding: 4rem 1rem;">
+    <h2>آماده‌اید شروع کنید؟</h2>
+    <p style="margin: 1rem 0 2rem; color: var(--muted);">۱۴ روز رایگان. بدون نیاز به کارت اعتباری.</p>
+    <a href="mailto:hello@crmpro.example" class="cta">درخواست دمو</a>
+  </section>
+  <footer>ساخته‌شده با One-Page Studio · ۶ آذر ۱۴۰۵</footer>
+</body>
+</html>
